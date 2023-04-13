@@ -6,6 +6,8 @@ body, html {
     margin: 0;
 }
 
+/* nav-bar */
+
 nav {
     height: 100px;
     background-color: #000000;
@@ -15,18 +17,19 @@ nav {
     z-index: 1;
 }
 
-/* nav .logo {
+nav .logo {
     display: block;
-    width: 300px;
-    height: 40px;
+    width: 100px;
+    height: 250px;
     position: absolute; top: 50%; left: 0;
-    margin-top: -20px;
+    margin-top: -50px;
     margin-left: 30px;
-    background: url(img/imperial-seal-background.jpg) no-repeat 0 0;
+    background: url(img/white-imperial-logo-on-black.jpg) no-repeat 0 0;
     background-size: 100%;
     overflow: hidden;
     text-indent: -999px;
-} */
+    color: #FFFFFF;
+}
 
 nav ul {
     padding: 0;
@@ -44,11 +47,21 @@ nav ul li a {
     display: block;
     height: 100%;
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 35px 10px;
+    padding: 55px 10px;
     line-height: 5px;
+}
+
+.name {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    padding: 45px 149px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
 }
