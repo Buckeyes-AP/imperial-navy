@@ -8,7 +8,9 @@ body, html {
 
 h1 {
     font-weight: 800;
-    font-size: 50px;
+    font-size: 40px;
+    opacity: 80%;
+    margin: 0;
 }
 
 /* nav-bar */
@@ -94,18 +96,27 @@ nav ul li a {
     background-size: 100%;
 }
 
-a.cta {
+button.cta {
     font-size: 30px;
     font-weight: bold;
     color: white;
-    background: #007FFF;
     display: inline-block;
-    box-shadow: 0 0 0 10px rgba(0, 127, 255, .15);
+    box-shadow: 0 0 0 10px rgba(228, 231, 233, 0.15);
     padding: 20px 30px;
     border-radius: 10px;
     text-decoration: none;
     outline: none;
     border: none;
     cursor: pointer;
+    margin: 185px 0px;
+    opacity: 100%;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    font-family: 'Libre Baskerville', serif;
 }
 
+button.cta:hover {
+    background-color: grey;
+    opacity: 85%;
+}
