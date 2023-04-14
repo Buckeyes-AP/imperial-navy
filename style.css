@@ -8,9 +8,8 @@ body, html {
 
 h1 {
     font-weight: 800;
-    font-size: 40px;
+    font-size: 35px;
     opacity: 80%;
-    margin: 0;
 }
 
 /* nav-bar */
@@ -76,10 +75,11 @@ nav ul li a {
 /* hero-banner */
 
 .heading {
-    position: absolute;
-    top: 90px;
-    left: 130px;
+    position: relative;
+    bottom: 185px;
+    right: 270px;
     text-align: center;
+    padding: 220px 0px;
 }
 
 .hero-banner {
@@ -90,14 +90,13 @@ nav ul li a {
 .imperial-starfleet {
     background: url(img/star-destroyers.jpg) no-repeat 0 0;
     width: 100%;
-    height: 610px;
+    height: 100%;
     position: absolute;
-    top: 14%;
     background-size: 100%;
 }
 
-button.cta {
-    font-size: 30px;
+button.new-button {
+    font-size: 20px;
     font-weight: bold;
     color: white;
     display: inline-block;
@@ -108,15 +107,38 @@ button.cta {
     outline: none;
     border: none;
     cursor: pointer;
-    margin: 185px 0px;
     opacity: 100%;
     background-color: Transparent;
     background-repeat:no-repeat;
     overflow: hidden;
     font-family: 'Libre Baskerville', serif;
+    position: relative;
+    top: 190px;
+
 }
 
-button.cta:hover {
+button.new-button:hover {
     background-color: grey;
     opacity: 85%;
 }
+
+.more-info {
+    text-align: center;
+}
+
+.more-info h2 {
+    margin: 50px 0 0;
+}
+
+
+/* <div class="more-info">
+        <div class="wrapper">
+            <h2>Call To Action</h2>
+                <p>After the recent terrorist attack, <br/>the Galatic
+                    Empire is calling all citizens to join the <br/> 
+                    Imperial Navy in our fight to defeat the 
+                    Rebel Alliance!
+                </p>
+            <button class="cta">Join Us!</button>
+        </div>
+    </div> */
