@@ -6,10 +6,15 @@ body, html {
     margin: 0;
 }
 
+
 h1 {
     font-weight: 800;
     font-size: 35px;
     opacity: 80%;
+}
+
+footer, h2, p {
+    text-align: center;
 }
 
 /* nav-bar */
@@ -122,23 +127,75 @@ button.new-button:hover {
     opacity: 85%;
 }
 
+/* call to action banner */
+
 .more-info {
     text-align: center;
 }
 
-.more-info h2 {
-    margin: 50px 0 0;
+button.cta {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 2.15);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+    top: 3px;
 }
 
+button.cta:hover {
+    background-color: white ;
+    opacity: 85%;
+}
 
-/* <div class="more-info">
-        <div class="wrapper">
-            <h2>Call To Action</h2>
-                <p>After the recent terrorist attack, <br/>the Galatic
-                    Empire is calling all citizens to join the <br/> 
-                    Imperial Navy in our fight to defeat the 
-                    Rebel Alliance!
-                </p>
-            <button class="cta">Join Us!</button>
-        </div>
-    </div> */
+.darthvader {
+    background: url(img/darth-vader.jpg) no-repeat 0 0;
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    background-size: 100%;
+    right: 995px;
+    border-radius: 195px;
+    border: none;
+    top: 1065px;
+
+}
+
+.fear-bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imperial-background {
+    background: url(img/imperial-seal-background.jpg) no-repeat 0 0;
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    background-size: 100%;
+    opacity: 20%;
+    left: 480px;
+    top: 1014px;
+}
+
+.sep {
+    width: 470px;
+    height: 10px;
+    background-color: #111111;
+    margin: 70px auto;
+}
+
+.right-cta {
+    position: relative;
+    
+}
