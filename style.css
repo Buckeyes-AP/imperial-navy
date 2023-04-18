@@ -159,8 +159,20 @@ button.cta:hover {
     opacity: 85%;
 }
 
+.darthsidious {
+    background: url(img/darthsidious.jpg) no-repeat 0 0;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    background-size: 100%;
+    right: 215px;
+    border-radius: 195px;
+    border: none;
+    top: 1050px;
+}
+
 .darthvader {
-    background: url(img/darth-vader.jpg) no-repeat 0 0;
+    background: url(img/darthvader.jpg) no-repeat 0 0;
     height: 100%;
     width: 15%;
     position: absolute;
@@ -185,7 +197,7 @@ button.cta:hover {
     background-size: 100%;
     opacity: 20%;
     left: 480px;
-    top: 1014px;
+    top: 1010px;
 }
 
 .sep {
