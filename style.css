@@ -15,6 +15,7 @@ h1 {
 
 footer, h2, p {
     text-align: center;
+    font-weight: bold;
 }
 
 /* nav-bar */
@@ -151,7 +152,7 @@ button.cta {
     overflow: hidden;
     font-family: 'Libre Baskerville', serif;
     position: relative;
-    top: 3px;
+    top: 20px;
 }
 
 button.cta:hover {
@@ -161,26 +162,24 @@ button.cta:hover {
 
 .darthsidious {
     background: url(img/darthsidious.jpg) no-repeat 0 0;
-    height: 100%;
+    height: 425px;
     width: 20%;
     position: absolute;
     background-size: 100%;
     right: 215px;
-    border-radius: 195px;
     border: none;
-    top: 1050px;
+    top: 1045px;
 }
 
 .darthvader {
     background: url(img/darthvader.jpg) no-repeat 0 0;
-    height: 100%;
+    height: 425px;
     width: 15%;
     position: absolute;
     background-size: 100%;
-    right: 995px;
-    border-radius: 195px;
+    left: 215px;
     border: none;
-    top: 1065px;
+    top: 1060px;
 
 }
 
@@ -191,13 +190,13 @@ button.cta:hover {
 
 .imperial-background {
     background: url(img/imperial-seal-background.jpg) no-repeat 0 0;
-    width: 33%;
-    height: 100%;
+    width: 24%;
+    height: 425px;
     position: absolute;
     background-size: 100%;
     opacity: 20%;
-    left: 480px;
-    top: 1010px;
+    left: 38%;
+    top: 1060px;
 }
 
 .sep {
@@ -211,3 +210,18 @@ button.cta:hover {
     position: relative;
     
 }
+
+/* footer */
+
+/* .imperialpilot {
+    background: url(img/TIE_Pilot.jpg) no-repeat 0 0;
+    height: 75%;
+    width: 14%;
+    position: absolute;
+    background-size: 100%;
+    left: 665px;
+    border-radius: 195px;
+    border: none;
+    top: 1060px;
+} */
+
