@@ -101,7 +101,7 @@ nav ul li a {
     background-size: 100%;
 }
 
-button.new-button {
+.new-button {
     font-size: 20px;
     font-weight: bold;
     color: white;
@@ -123,7 +123,7 @@ button.new-button {
 
 }
 
-button.new-button:hover {
+.new-button:hover {
     background-color: grey;
     opacity: 85%;
 }
@@ -156,8 +156,10 @@ button.cta {
 }
 
 button.cta:hover {
-    background-color: white ;
+    background-color: black;
     opacity: 85%;
+    color: white;
+    
 }
 
 .darthsidious {
@@ -224,4 +226,107 @@ button.cta:hover {
     border: none;
     top: 1060px;
 } */
+
+
+/* pop-up item */
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.popup.show{
+    display: block;
+}
+
+.popup .blanket {
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.popup .content {
+    box-sizing: border-box;
+    width: 960px;
+    height: 500px;
+    padding: 30px 40px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -480px;
+}
+
+.popup h2 {
+    margin: 10px 0 20px;
+}
+
+.popup .cta { 
+    margin-top: 40px;
+}
+
+.popup .close {
+    font-size: 45px;
+    font-weight: 600;
+    width: 60px;
+    height: 60px;
+    background-size: 50%;
+    position: absolute;
+    top: -29px;
+    right: -26px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-indent: 0px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 15.2);
+}
+
+.popup .row:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.popup .item {
+    float: left;
+    width: 415px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.popup .item:first-child {
+    margin-left: 0;
+}
+
+.popup .item label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.popup .item input[type='text'] {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    border: 4px solid #111111;
+    height: 70px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 20px;
+}
 

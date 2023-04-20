@@ -14,8 +14,8 @@
         <a href="#" class="logo">Imperial Navy</a>
         <a href="#" class="name">Imperial Navy</a>
         <ul>
-            <li><a href="">Join Us</a></li>
-            <li><a href="">Our Fight</a></li>
+            <li><a href="javascript:()" onclick="showPopup();">Join Us</a></li>
+            <li><a href="#story">Our Fight</a></li>
         </ul>
     </nav>
     <div class="hero-banner">
@@ -23,7 +23,7 @@
             <div class="heading">
                 <h1>Join The Strongest Fleet <br/>
                     In the Galaxy Today!</h1>
-                <button class="new-button">Protect the Galaxy</button>
+                <a class="new-button" href="#story">Protect the Galaxy</a>
             </div>
     </div>
     
@@ -36,7 +36,7 @@
                 Imperial Navy in our fight to defeat the 
                 Rebel Alliance!
             </p>
-            <button class="cta">Join Us!</button>
+            <button class="cta" onclick="showPopup();">Join Us!</button>
         </div>
     </div>
     <div class="sep"></div>
@@ -62,7 +62,7 @@
         <div class="wrapper"></div>
         Made By Alex Poirier
     </footer>
-    <!-- <div class="popup" id="popup">
+    <div class="popup" id="popup">
         <div class="blanket"></div>
         <div class="content">
             <h2>Fill In Your Details</h2>
@@ -87,10 +87,13 @@
                         <input type="text">
                     </div>
                 </div>
-                <button class="cta">Join!</button>
+                <button class="cta" onclick="hidePopup();">Join!</button>
             </form>
-            <button class="close">Close</button>
+            <span class="close" onclick="hidePopup();">&times;</span>
         </div>
-    </div> -->
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+
 </body>
 </html>
